@@ -19,10 +19,10 @@ public class CruddemoApplication {
 	public CommandLineRunner commandLineRunner(AppDAO appDAO) {
 
 		return runner -> {
-			//creataInstructor(appDAO);
+			creataInstructor(appDAO);
 			//findInstructor(appDAO);
 
-			deleteInstructor(appDAO);
+			//deleteInstructor(appDAO);
 		};
 	}
 
